@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #1f1f1f;
+}
+
+header {
+  background-color: #f4c2c2;
+  color: #800020;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #800020;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #a01135;
+}
+
+main {
+  max-width: 800px; 
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.secao-dicas-pagina, .dica-rapida {
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+section, aside {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #800020;
+  border-radius: 5px;
+}
+
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
